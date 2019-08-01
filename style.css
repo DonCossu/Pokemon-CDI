@@ -1,0 +1,245 @@
+@font-face {
+ font-family: "Pokemon Classic";
+ src: url("font/pokemonClassic.ttf");
+}
+
+body {
+	background-color: #B0C4DE;
+	margin: 0;
+	padding: 0;
+}
+
+
+#espaceJeu {
+	box-sizing: border-box;
+	width: 100%;
+	height: 645px;
+	
+}
+
+#changementPorte {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	display: none;
+	z-index: 2; /* sert pour le div changement de porte */
+}
+
+#mapJeu {
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+	background-image: url("img/maps/bourgpalette.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+
+}
+
+#divPerso {
+	position: absolute;
+	margin-left: 539.7px;
+	margin-top: -404.5px;
+	width: 24px;
+	height: 24px;
+	box-sizing: border-box;
+	background-image: url("img/heros/bas.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 1; /* sert pour le div changement de porte */
+}
+
+
+#espaceInfos {
+	box-sizing: border-box;
+	width: 100%;
+	height: 20%;
+	background-color: #B0C4DE;
+	border: 3px solid #8f8f8f;
+}
+
+
+#divTexte {
+	font-family: "Pokemon Classic";
+	color: rgb(50,50,50);
+	line-height: 2.2em;
+	word-spacing: 0.3em;
+	box-sizing: border-box;
+	position: absolute;
+	background-image: url("img/affichagetexte.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 120px;
+	margin: -140px 0 0 393px;
+	display: none;
+	padding: 24px 26px 26px 26px;
+}
+
+
+
+
+
+
+/*******************************************************************************
+********************************************************************************
+********************************      PERSOS     *******************************
+********************************************************************************
+*******************************************************************************/
+
+
+#divMeufBase {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	box-sizing: border-box;
+	background-image: url("img/persos/meufbase/bas.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 1; /* sert pour le div changement de porte */
+}
+
+#divMecgros {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	box-sizing: border-box;
+	background-image: url("img/persos/mecgros/bas.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 1; /* sert pour le div changement de porte */
+}
+
+
+#gpPalette {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	box-sizing: border-box;
+	background-image: url("img/persos/vieux/bas.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 1; /* sert pour le div changement de porte */
+	display: none; /* APPARAIT DANS MAISON RED */
+}
+
+#profChen {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	box-sizing: border-box;
+	background-image: url("img/persos/chen/bas.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 1; /* sert pour le div changement de porte */
+	display: none; /* APPARAIT DANS MAISON RED */
+}
+
+#divPikachu {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	box-sizing: border-box;
+	background-image: url("img/persos/pikachu/bas.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 1; /* sert pour le div changement de porte */
+	display: none; /* APPARAIT DANS MAISON RED */
+}
+
+
+
+
+
+
+
+
+
+/*******************************************************************************
+********************************************************************************
+********************************      OBJETS     *******************************
+********************************************************************************
+*******************************************************************************/
+
+
+
+#divInventaire {
+	position: absolute;
+	box-sizing: border-box;
+	height: 100%;
+	width: 310px;
+	padding: 30px 50px;
+	font-family: "Pokemon Classic";
+	font-size: 14px;
+}
+
+
+
+/*********************************** BALLS ************************************/
+
+
+/******************************** DANS LE JEU ****/
+
+
+#greenball {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	box-sizing: border-box;
+	background-image: url("img/balls/green/centre.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 1; /* sert pour le div changement de porte */
+	display: none; /* APPARAIT DANS MAISON RED */
+}
+
+
+
+
+/************************** DANS L'INVENTAIRE ****/
+.verteInventaire {
+	background-image: url("img/balls/green/centre.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 30px; 
+	margin-right: 6px;
+}
+
+.jauneInventaire {
+	background-image: url("img/balls/yellow/centre.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 30px; 
+	margin-right: 6px;
+}
+
+
+
+
+
+
+/*********************************** OBJETS ************************************/
+
+
+
+
+#biere {
+	display: none;
+	align-content: center;
+	margin-bottom: 14px;
+
+}
+
+#bierep, #potionp {
+	width: 120px;
+}
+
+
+
+#potion {
+	display: none;
+	align-content: center;
+}
+

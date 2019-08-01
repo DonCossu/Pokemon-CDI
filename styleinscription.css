@@ -1,0 +1,67 @@
+@font-face {
+ font-family: "Pokemon Classic";
+ src: url("font/pokemonClassic.ttf");
+}
+
+body {
+	background-color: #B0C4DE;
+	margin: 0;
+	padding: 0;
+}
+
+#fond {
+	background-color: white;
+	width: 800px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#chen {
+	background-image: url('img/inscription/chens/1.png');
+	width: 62px;
+	height: 116px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 370px;
+	margin-top: 120px;
+	position: absolute;
+	display: none;
+}
+
+
+#divTexte {
+	font-family: "Pokemon Classic";
+	color: rgb(50,50,50);
+	line-height: 2.2em;
+	word-spacing: 0.3em;
+	box-sizing: border-box;
+	position: absolute;
+	background-image: url("img/affichagetexte.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 120px;
+	margin: 300px 0 0 200px;
+	display: none;
+	padding: 24px 26px 26px 26px;
+}
+
+#affichage {
+	font-family: "Pokemon Classic";
+	width: 400px;
+	margin: 270px 0 0 220px;
+	position: absolute;
+	display: none;
+}
+
+form > input {
+	border: none;
+	width: 300px;
+	font-family: "Pokemon Classic";
+	height: 60px;
+	font-size: 20px;
+}
+
+form > input:focus {
+	 outline:  none;
+}
